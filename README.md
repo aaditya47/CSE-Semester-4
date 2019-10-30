@@ -1,2 +1,3 @@
-# CSE Semester 4
- 
+# Notes for all Semester 4 subjects
+
+A repository by Aaditya
