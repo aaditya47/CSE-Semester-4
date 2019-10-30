@@ -2,4 +2,6 @@
 
 A repository by Aaditya
 
-Note: To contribute, fork this repository and submit pull requests
+Note: To contribute, fork this repository and submit a pull request
+
+Have a great day:)
