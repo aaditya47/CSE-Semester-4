@@ -1,4 +1,4 @@
-# Notes for all Semester 4 subjects\
+# Notes for all Semester 4 subjects
 
 Find portions for periodical tests [here](https://github.com/aaditya47/CSE-Semester-4/blob/master/Portions.MD)
 
