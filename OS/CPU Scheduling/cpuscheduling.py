@@ -12,13 +12,8 @@ def fcfs(processes, n, burst_time):
     turn_around_time=[0]*n
     total_wt=0
     total_tat=0
-
     fcfs_wt(processes, n, burst_time,waiting_time)
-
     fcfs_tat(processes, n, burst_time, waiting_time, turn_around_time)
-
     for i in range(0,n):
         total_wt+=waiting_time[i]
-    
-    print("Average Waiting Time = ",str(total_wt/n))
     return (total_wt/n)

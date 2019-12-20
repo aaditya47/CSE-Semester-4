@@ -4,10 +4,9 @@ def main():
     processes=[i for i in range(0,n)]
     burst_time=[0]*n
     for i in range(0,n):
-        print("Enter burst time of process %d: "%(i+1),end=' ')
+        print("Enter burst time of process %d: "%(i+1),end='')
         burst_time[i]=int(input())
-    wt=sc.fcfs(processes,n,burst_time)
-    
+    print("FCFS Waiting Time: %.2f"%(sc.fcfs(processes,n,burst_time)))
 
 if(__name__=="__main__"):
     main()
