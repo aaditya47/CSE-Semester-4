@@ -1,3 +1,4 @@
+import os
 def fcfs_wt(processes, n, burst_time, waiting_time):
     waiting_time[0]=0
     for i in range(1,n):
