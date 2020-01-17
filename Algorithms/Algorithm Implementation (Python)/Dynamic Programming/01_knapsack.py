@@ -11,7 +11,7 @@ Recursive implementation of the 0-1 Knapsack Problem.
 Complexity: O(2^n), making it less ideal for larger values of n
 '''
 
-def botton_up_knapsack(W,wt,val,k):
+def bottom_up_knapsack(W,wt,val,k):
     K=[[0 for i in range(W+1)] for j in range(k+1)]
     for i in range(0,k+1):
         for w in range(0,W+1):
